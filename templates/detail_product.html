@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<nav aria-label="breadcrumb mt-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Details</li>
+    </ol>
+  </nav>
+
+<div class="container">
+    <div class="row p-3">
+        <div class="col-12 col-md-6 p-3">
+            <h2>{{product.title}}</h2>
+            <p>
+                {{product.description}}
+            </p>
+        </div>
+        <div class="col-12 col-md-6 p-3">
+            <img src="{{product.image.url}}" class="w-75" alt="">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <h3 class="fs-2">Texnik tasnifi</h3>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.weight}} weight
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.composity}} weight
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.wheel_formula}} wheel formula
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.weight}} weight
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.dimensions}} Dimensions
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.working_volue}} Working volume
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.wheelbase}} Wheelbase
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="alert alert-secondary" role="alert">
+            {{product.characteristic.fuel_type.name}}
+          </div>
+        </div>
+      </div> 
+    
+    
+</div>
+{% endblock content %}

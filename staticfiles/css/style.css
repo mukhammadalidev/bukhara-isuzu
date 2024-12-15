@@ -1,0 +1,32 @@
+.custom-card {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-card img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.custom-card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.custom-card-content h4 {
+    font-weight: bold;
+}
+
+.custom-card-content a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.custom-card-content a:hover {
+    text-decoration: underline;
+}
