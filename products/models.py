@@ -1,7 +1,7 @@
 from django.db import models
 from datetime import datetime
 from django.utils.text import slugify
-# Create your models here.
+
 class FuelType(models.Model):
     name = models.CharField(max_length=100)
 
@@ -12,18 +12,17 @@ class Characteristic(models.Model):
     dimensions = models.CharField(max_length=100)
     working_volume = models.CharField(max_length=10)
     wheelbase = models.CharField(max_length=100)
-    fuel_type = models.ForeignKey(FuelType,on_delete=models.CASCADE)
-
+    fuel_type = models.ForeignKey(FuelType, on_delete=models.CASCADE)
 
 class Category(models.Model):
-    name = models.CharField(max_length=255,default='yuk avtomobile')
+    name = models.CharField(max_length=255, default='yuk avtomobile')
     image = models.ImageField(upload_to='category/')
-    slug = models.SlugField(unique=True) 
+    slug = models.SlugField(unique=True)
 
-    def save(self, *args, **kwargs):
-        if not self.slug:  # Agar slug bo'sh bo'lsa, uni avtomatik yaratish
-            self.slug = slugify(self.name)
-        super().save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     if not self.slug:
+    #         self.slug = slugify(self.name)
+    #     super().save(*args, **kwargs)
 
     def __str__(self):
         return self.name
@@ -31,9 +30,15 @@ class Category(models.Model):
 class Product(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
-    characteristic = models.ForeignKey(Characteristic,on_delete=models.CASCADE,related_name='products')
+    characteristic = models.ForeignKey(Characteristic, on_delete=models.CASCADE, related_name='products')
     image = models.ImageField(upload_to='products/')
-    category = models.ForeignKey(Category,on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(default=datetime.now)
+
+   
+      
 
     def __str__(self):
         return self.title
+
+

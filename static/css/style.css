@@ -37,14 +37,22 @@
 .custom-card-content a:hover {
     text-decoration: underline;
 }
-.custom-carousel{
-    height: 50vh;
-}
 
 @media screen and (max-width:768px) {
     .custom-card {
         margin-top: 10px;
         height: 300px;
+    }
+
+    .navbar-brand  img{
+      height: 30px !important;
+    }
+    .carousel-inner{
+      height: 500px;
+    }
+    .custom-carousel-image {
+      height: 500px;
+      object-fit: cover; 
     }
     
 }
@@ -115,3 +123,21 @@
     width: 100%;
     object-fit: cover; /* Rasmni butun kartani to'ldirishga moslashtiradi */
   }
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+
+
+
+
+
+.md-none{
+    display: none !important;
+  }
+  

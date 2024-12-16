@@ -38,15 +38,31 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'modeltranslation',
     # local apps
     'news',
     'products',
 ]
+  
+
+LOCALE_PATHS = (
+   BASE_DIR, 'locale/'
+)
+
+LANGUAGE_CODE = 'uz-uz'
+USE_I18N = True
+from django.utils.translation import gettext_lazy as _
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('ru', _('Russian')),
+    ('uz', _('Uzbek')),
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -152,3 +168,9 @@ CACHES = {
         }
     }
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://b7b2-2a05-45c2-6084-3800-d536-ceaa-2579-14f0.ngrok-free.app',  # O'zingizning ngrok URL'ingiz
+    # boshqa trusted origins, agar bo'lsa
+]
+
