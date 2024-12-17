@@ -21,3 +21,11 @@ def category_detail(request,id):
     }
 
     return render(request,'detail_product.html',context)
+
+
+def product_view(request):
+    product = Product.objects.all()
+    context = {
+        "products":product
+    }
+    return render(request,'products.html',context)

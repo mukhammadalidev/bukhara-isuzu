@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<nav aria-label="breadcrumb mt-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Details</li>
+    </ol>
+  </nav>
+
+<div class="container">
+    
+      
+       
+        
+    <div class="row">
+
+   
+
+
+      {% for news_item in  news %}
+
+        <div class="col-6 col-md-3 mt-3" data-aos="fade-up">
+            <div class="card" >
+                <img class="card-img-top" src="{{news_item.image.url}}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{news_item.title}}</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">{{news_item.created_at}}</li>
+                </ul>
+                <div class="card-body">
+                  <a href="{% url 'news:news_detail' news_item.id %}" class="card-link">{%blocktranslate%} Batafsil {% endblocktranslate%}</a>
+                </div>
+              </div>
+            </div> 
+        
+        {% endfor %}
+       
+      
+ 
+     
+      </div>
+    
+</div>
+{% endblock content %}

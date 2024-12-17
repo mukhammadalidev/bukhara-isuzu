@@ -7,94 +7,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 07:06+0000\n"
+"POT-Creation-Date: 2024-12-17 06:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en\n"
+"Language-Team: Uzbek <uz@li.org>\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: core/settings.py:57
 msgid "English"
-msgstr "English"
+msgstr "Inglizcha"
 
 #: core/settings.py:58
 msgid "Russian"
-msgstr "Russian"
+msgstr "Ruscha"
 
 #: core/settings.py:59
 msgid "Uzbek"
-msgstr "Uzbek"
+msgstr "O‘zbekcha"
 
 #: templates/base.html:55
 msgid "Asosiy "
-msgstr "Home"
+msgstr "Asosiy"
 
 #: templates/base.html:58
 msgid "Mahsulotlar "
-msgstr "Products"
+msgstr "Mahsulotlar"
 
 #: templates/base.html:61 templates/base.html:121
 msgid "Yangiliklar "
-msgstr "News"
+msgstr "Yangiliklar"
 
 #: templates/base.html:64
 msgid "Biz haqimizda "
-msgstr "About Us"
+msgstr "Biz haqimizda"
 
 #: templates/base.html:109
 msgid "Modellar Qatori "
-msgstr "Model Line"
+msgstr "Modellar Qatori"
 
 #: templates/base.html:111
 msgid "Avtobuslar "
-msgstr "Buses"
+msgstr "Avtobuslar"
 
 #: templates/base.html:112
 msgid "Yuk mashinalar "
-msgstr "Trucks"
+msgstr "Yuk mashinalar"
 
 #: templates/base.html:113
 msgid "Maxsus texnikalar "
-msgstr "Special Equipment"
+msgstr "Maxsus texnikalar"
 
 #: templates/base.html:114
 msgid "Pikaplar "
-msgstr "Pickups"
+msgstr "Pikaplar"
 
 #: templates/base.html:118
 #, fuzzy
 #| msgid "Maxsus texnikalar "
-msgid " Maxsus Takliflar "
-msgstr "Special Equipment"
+msgid "Maxsus Takliflar "
+msgstr "Maxsus texnikalar"
 
 #: templates/base.html:120
 msgid "Aksiyalar "
-msgstr "Promotions"
+msgstr "Aksiyalar"
 
 #: templates/base.html:127
 msgid "Ehtiyot qismlar "
-msgstr "Spare Parts"
+msgstr "Ehtiyot qismlar"
 
 #: templates/index.html:34
 msgid "Mahsulotlar"
-msgstr "Products"
+msgstr "Mahsulotlar"
 
 #: templates/index.html:54
 msgid "Dilerlik"
-msgstr "Dealership"
+msgstr "Dilerlik"
 
 #: templates/index.html:67
 msgid " Yangilik "
-msgstr "News"
+msgstr "Yangilik"
 
 #: templates/index.html:80
 msgid "Batafsil"
-msgstr "More"
+msgstr "Batafsil"
 
 #: templates/news.html:34
 msgid " Batafsil "
-msgstr "More"
+msgstr "Batafsil"
