@@ -32,18 +32,25 @@
           <form action="{% url 'set_language' %}" class="d-flex" method="post" id="languageForm">
             {% csrf_token %}
             <input name="next" type="hidden" value="{{ redirect_to }}">
-            
-            <select name="language" class="form-select" onchange="this.form.submit()">
-                {% get_current_language as LANGUAGE_CODE %}
-                {% get_available_languages as LANGUAGES %}
-                {% get_language_info_list for LANGUAGES as languages %}
-                {% for language in languages %}
-                    <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
-                        {{ language.name_local }} ({{ language.code }})
-                    </option>
-                {% endfor %}
-            </select>
+        
+            <div class="position-relative">
+                <!-- Add the Font Awesome icon -->
+                <i class="fa fa-globe position-absolute" style="top: 50%; left: 10px; transform: translateY(-50%); color: #6c757d;"></i>
+                
+                <!-- Language select field -->
+                <select name="language" class="form-select border-0 ps-4" style="appearance: none;" onchange="this.form.submit()">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
+                            {{ language.name_local }} ({{ language.code }})
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
         </form>
+        
          </div>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fas fa-bars"></i></span> <!-- Using Font Awesome icon -->
@@ -62,6 +69,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'about' %}">{% blocktranslate %}Biz haqimizda {% endblocktranslate%}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'aksiys' %}">{% blocktranslate %} Aksiyalar {% endblocktranslate%}</a>
               </li>
               <li class="nav-item p-1 sm-none">
               

@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-v5cf76d*bjjbafg7u47tewlc0t=2sp9vlsx7q_+yijm@5cnm1&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -49,6 +49,7 @@ LOCALE_PATHS = (
    BASE_DIR, 'locale/'
 )
 
+
 LANGUAGE_CODE = 'uz-uz'
 USE_I18N = True
 from django.utils.translation import gettext_lazy as _
@@ -61,6 +62,7 @@ LANGUAGES = (
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -69,6 +71,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 ROOT_URLCONF = 'core.urls'
 
@@ -170,9 +175,7 @@ CACHES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://b7b2-2a05-45c2-6084-3800-d536-ceaa-2579-14f0.ngrok-free.app', 
-      # O'zingizning ngrok URL'ingiz
-    # boshqa trusted origins, agar bo'lsa
-    'https://e3c9-31-13-189-26.ngrok-free.app',
+    "https://b8ca-31-13-189-26.ngrok-free.app",
+    "https://c2b2-213-230-93-96.ngrok-free.app"
 ]
 

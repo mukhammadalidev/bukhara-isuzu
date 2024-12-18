@@ -11,3 +11,13 @@ class News(models.Model):
 
     class Meta:
         ordering = ['-created_at']
+
+
+
+class Aksiya(models.Model):
+    title = models.CharField(max_length=255)
+    image = models.ImageField(upload_to='aksiya/',blank=True,null=True)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.title
