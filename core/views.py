@@ -11,7 +11,7 @@ def index(request):
     category = cache.get('category')
     
     if not news:
-        news = News.objects.all()[:]
+        news = News.objects.all()[:4]
         cache.set('news', news, timeout=3600)  # Keshga saqlash
     if not products:
         products = Product.objects.all()[:]
@@ -47,3 +47,10 @@ def aksiya_view(request):
 def aksiya_detail_view(request,id):
     aksiya = Aksiya.objects.get(id=id)
     return render(request,'aksiya_detail.html',context={"aksiya":aksiya})
+
+
+
+
+
+def services_view(request):
+    return render(request,'services.html')

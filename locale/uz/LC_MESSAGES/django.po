@@ -1,100 +1,142 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 06:58+0000\n"
+"POT-Creation-Date: 2024-12-21 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Uzbek <uz@li.org>\n"
+"Language-Team: Uzbek <LL@li.org>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: core/settings.py:57
 msgid "English"
 msgstr "Inglizcha"
 
-#: core/settings.py:58
 msgid "Russian"
 msgstr "Ruscha"
 
-#: core/settings.py:59
 msgid "Uzbek"
 msgstr "O‘zbekcha"
 
-#: templates/base.html:55
+msgid "\n      Home\n      "
+msgstr "\n      Bosh sahifa\n      "
+
+msgid "\n      Aksiyalar\n      "
+msgstr "\n      Aksiyalar\n      "
+
+msgid "\n                    Batafsil\n                    "
+msgstr "\n                    Batafsil\n                    "
+
+msgid "\nBiz haqimizda\n"
+msgstr "\nBiz haqimizda\n"
+
+msgid "\n        Home\n        "
+msgstr "\n        Bosh sahifa\n        "
+
+msgid "\n        Aksiyalar\n        "
+msgstr "\n        Aksiyalar\n        "
+
 msgid "Asosiy "
-msgstr "Asosiy"
+msgstr "Asosiy "
 
-#: templates/base.html:58
 msgid "Mahsulotlar "
-msgstr "Mahsulotlar"
+msgstr "Mahsulotlar "
 
-#: templates/base.html:61 templates/base.html:121
 msgid "Yangiliklar "
-msgstr "Yangiliklar"
+msgstr "Yangiliklar "
 
-#: templates/base.html:64
 msgid "Biz haqimizda "
-msgstr "Biz haqimizda"
+msgstr "Biz haqimizda "
 
-#: templates/base.html:109
+msgid " Aksiyalar "
+msgstr " Aksiyalar "
+
+msgid " Servis "
+msgstr " Servis "
+
+msgid " Katalogni Yuklash "
+msgstr " Katalogni Yuklash "
+
 msgid "Modellar Qatori "
-msgstr "Modellar Qatori"
+msgstr "Modellar Qatori "
 
-#: templates/base.html:111
 msgid "Avtobuslar "
-msgstr "Avtobuslar"
+msgstr "Avtobuslar "
 
-#: templates/base.html:112
 msgid "Yuk mashinalar "
-msgstr "Yuk mashinalar"
+msgstr "Yuk mashinalar "
 
-#: templates/base.html:113
 msgid "Maxsus texnikalar "
-msgstr "Maxsus texnikalar"
+msgstr "Maxsus texnikalar "
 
-#: templates/base.html:114
 msgid "Pikaplar "
-msgstr "Pikaplar"
+msgstr "Pikaplar "
 
-#: templates/base.html:118
-#, fuzzy
-#| msgid "Maxsus texnikalar "
-msgid "Maxsus Takliflar "
-msgstr "Maxsus texnikalar"
+msgid "  Maxsus Takliflar"
+msgstr "  Maxsus Takliflar"
 
-#: templates/base.html:120
 msgid "Aksiyalar "
-msgstr "Aksiyalar"
+msgstr "Aksiyalar "
 
-#: templates/base.html:127
+msgid "Servis "
+msgstr "Servis "
+
 msgid "Ehtiyot qismlar "
-msgstr "Ehtiyot qismlar"
+msgstr "Ehtiyot qismlar "
 
-#: templates/index.html:34
+msgid "\n      Detail\n      "
+msgstr "\n      Batafsil\n      "
+
+msgid " Batafsil "
+msgstr " Batafsil "
+
+msgid "\n          Texnik tasnifi\n          "
+msgstr "\n          Texnik Tavsifi\n          "
+
+msgid "weight"
+msgstr "Og'irlik"
+
+msgid "composity"
+msgstr "Sig'im"
+
+msgid "wheel_formula"
+msgstr "G'ildirak formulasi"
+
+msgid "dimensions"
+msgstr "O'lchamlar"
+
+msgid "working volue"
+msgstr "Ish hajmi"
+
+msgid "wheelbase"
+msgstr "G'ildirak oralig'i"
+
+msgid "fuel type"
+msgstr "Yoqilg'i turi"
+
 msgid "Mahsulotlar"
 msgstr "Mahsulotlar"
 
-#: templates/index.html:54
 msgid "Dilerlik"
 msgstr "Dilerlik"
 
-#: templates/index.html:67
 msgid " Yangilik "
-msgstr "Yangilik"
+msgstr " Yangilik "
 
-#: templates/index.html:80
 msgid "Batafsil"
 msgstr "Batafsil"
 
-#: templates/news.html:34
-msgid " Batafsil "
-msgstr "Batafsil"
+msgid "\n      News\n      "
+msgstr "\n      Yangiliklar\n      "
+
+msgid "\n      Products\n      "
+msgstr "\n      Mahsulotlar\n      "
+
+msgid "\n                      Ba'tafsil\n                      "
+msgstr "\n                      Batafsil\n                      "
+
+msgid "\nBizning Xizmatlar\n"
+msgstr "\nBizning Xizmatlarimiz\n"

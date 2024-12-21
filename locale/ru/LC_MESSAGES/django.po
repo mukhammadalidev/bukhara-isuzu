@@ -1,100 +1,142 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 07:06+0000\n"
+"POT-Creation-Date: 2024-12-21 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"Language-Team: Russian <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: core/settings.py:57
 msgid "English"
 msgstr "Английский"
 
-#: core/settings.py:58
 msgid "Russian"
 msgstr "Русский"
 
-#: core/settings.py:59
 msgid "Uzbek"
 msgstr "Узбекский"
 
-#: templates/base.html:55
+msgid "\n      Home\n      "
+msgstr "\n      Главная\n      "
+
+msgid "\n      Aksiyalar\n      "
+msgstr "\n      Акции\n      "
+
+msgid "\n                    Batafsil\n                    "
+msgstr "\n                    Подробнее\n                    "
+
+msgid "\nBiz haqimizda\n"
+msgstr "\nО нас\n"
+
+msgid "\n        Home\n        "
+msgstr "\n        Главная\n        "
+
+msgid "\n        Aksiyalar\n        "
+msgstr "\n        Акции\n        "
+
 msgid "Asosiy "
-msgstr "Главная"
+msgstr "Основное "
 
-#: templates/base.html:58
 msgid "Mahsulotlar "
-msgstr "Продукты"
+msgstr "Продукты "
 
-#: templates/base.html:61 templates/base.html:121
 msgid "Yangiliklar "
-msgstr "Новости"
+msgstr "Новости "
 
-#: templates/base.html:64
 msgid "Biz haqimizda "
-msgstr "О нас"
+msgstr "О нас "
 
-#: templates/base.html:109
+msgid " Aksiyalar "
+msgstr " Акции "
+
+msgid " Servis "
+msgstr " Сервис "
+
+msgid " Katalogni Yuklash "
+msgstr " Скачать Каталог "
+
 msgid "Modellar Qatori "
-msgstr "Модельная линия"
+msgstr "Модельный ряд "
 
-#: templates/base.html:111
 msgid "Avtobuslar "
-msgstr "Автобусы"
+msgstr "Автобусы "
 
-#: templates/base.html:112
 msgid "Yuk mashinalar "
-msgstr "Грузовики"
+msgstr "Грузовые автомобили "
 
-#: templates/base.html:113
 msgid "Maxsus texnikalar "
-msgstr "Специальная техника"
+msgstr "Спецтехника "
 
-#: templates/base.html:114
 msgid "Pikaplar "
-msgstr "Пикапы"
+msgstr "Пикапы "
 
-#: templates/base.html:118
-#, fuzzy
-#| msgid "Maxsus texnikalar "
-msgid " Maxsus Takliflar "
-msgstr "Специальная техника"
+msgid "  Maxsus Takliflar"
+msgstr "  Специальные предложения"
 
-#: templates/base.html:120
 msgid "Aksiyalar "
-msgstr "Акции"
+msgstr "Акции "
 
-#: templates/base.html:127
+msgid "Servis "
+msgstr "Сервис "
+
 msgid "Ehtiyot qismlar "
-msgstr "Запасные части"
+msgstr "Запчасти "
 
-#: templates/index.html:34
+msgid "\n      Detail\n      "
+msgstr "\n      Подробности\n      "
+
+msgid " Batafsil "
+msgstr " Подробнее "
+
+msgid "\n          Texnik tasnifi\n          "
+msgstr "\n          Технические характеристики\n          "
+
+msgid "weight"
+msgstr "Вес"
+
+msgid "composity"
+msgstr "Вместимость"
+
+msgid "wheel_formula"
+msgstr "Колесная формула"
+
+msgid "dimensions"
+msgstr "Размеры"
+
+msgid "working volue"
+msgstr "Рабочий объем"
+
+msgid "wheelbase"
+msgstr "Колесная база"
+
+msgid "fuel type"
+msgstr "Тип топлива"
+
 msgid "Mahsulotlar"
 msgstr "Продукты"
 
-#: templates/index.html:54
 msgid "Dilerlik"
 msgstr "Дилерство"
 
-#: templates/index.html:67
 msgid " Yangilik "
-msgstr "Новость"
+msgstr " Новости "
 
-#: templates/index.html:80
 msgid "Batafsil"
 msgstr "Подробнее"
 
-#: templates/news.html:34
-msgid " Batafsil "
-msgstr "Подробнее"
+msgid "\n      News\n      "
+msgstr "\n      Новости\n      "
+
+msgid "\n      Products\n      "
+msgstr "\n      Продукты\n      "
+
+msgid "\n                      Ba'tafsil\n                      "
+msgstr "\n                      Подробнее\n                      "
+
+msgid "\nBizning Xizmatlar\n"
+msgstr "\nНаши услуги\n"

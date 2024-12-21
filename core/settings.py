@@ -174,8 +174,13 @@ CACHES = {
     }
 }
 
+
 CSRF_TRUSTED_ORIGINS = [
     "https://b8ca-31-13-189-26.ngrok-free.app",
-    "https://c2b2-213-230-93-96.ngrok-free.app"
+    "https://c2b2-213-230-93-96.ngrok-free.app",
+    "https://e6e3-84-54-71-154.ngrok-free.app",
+    "https://5baf-84-54-71-154.ngrok-free.app",
+    "https://c12c-213-230-92-103.ngrok-free.app",
+    "https://ee8b-2a05-45c2-6058-e500-9f7-6f35-f77c-f8c5.ngrok-free.app",
 ]
 

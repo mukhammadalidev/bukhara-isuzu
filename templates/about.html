@@ -1,12 +1,18 @@
 {% extends 'base.html' %}
-
+{% load i18n %}
 {% block title %}
 Biz haqimizda
 {% endblock title %}
 
 {% block content %}
 
-<h1>Biz haqimizda</h1>
+<h1>
+
+{% blocktranslate %}
+Biz haqimizda
+{% endblocktranslate %}
+
+</h1>
 
 
 {% endblock content %}

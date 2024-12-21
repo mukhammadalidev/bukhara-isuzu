@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load i18n %}
 {% block title %}
 {{product.title}}
 {% endblock title %}
@@ -7,8 +7,16 @@
 {% block content %}
 <nav aria-label="breadcrumb mt-3">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'aksiys' %}">Aksiyalar</a></li>
+      <li class="breadcrumb-item"><a href="/">
+        {% blocktranslate %}
+        Home
+        {% endblocktranslate %}
+      </a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'aksiys' %}">
+        {% blocktranslate %}
+        Aksiyalar
+        {% endblocktranslate %}
+      </a></li>
     </ol>
   </nav>
 

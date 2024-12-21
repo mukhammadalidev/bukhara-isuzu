@@ -1,12 +1,20 @@
 {% extends 'base.html' %}
-
+{% load i18n %}
 
 {% block content %}
 <nav aria-label="breadcrumb mt-3">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Aksiya</li>
-    </ol>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">
+      {% blocktranslate %}
+      Home
+      {% endblocktranslate %}
+    </a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'aksiys' %}">
+      {% blocktranslate %}
+      Aksiyalar
+      {% endblocktranslate %}
+    </a></li>
+  </ol>
   </nav>
 
 <div class="container">
@@ -21,17 +29,22 @@
 
       {% for x in  aksiys %}
 
-        <div class="col-6 col-md-3 mt-3">
-          <div class="card shadow-sm border-0" style="max-width: 400px; margin: auto;">
-            <img src="{{x.image.url}}" alt="ISUZU CYZ51P" class="card-img-top">
-            <div class="card-body text-center">
-                <h5 class="card-title fw-bold fs-6">{{x.title | truncatewords:10}}...</h5>
-                <a href="{% url 'aksiy_detail' x.id %}" class="btn btn-light border d-flex align-items-center justify-content-center">
-                    <span class="me-2">Ba'tafsil</span>
-                    <span>→</span>
-                </a>
+        <div class="col-12 col-md-4 mt-3">
+          <div class="card shadow-sm">
+         <img src="{{x.image.url}}" class="w-100" style="height: 255px;" alt="">
+            <div class="card-body">
+              <p class="card-text">{{x.title}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'aksiy_detail' x.id %}" class="btn btn-sm btn-outline-secondary">
+                    {% blocktranslate %}
+                    Batafsil
+                    {% endblocktranslate %}
+                  </a>
+                 </div>
+              </div>
             </div>
-        </div>
+          </div>
         </div>
 
         

@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from .views import index, about_view,aksiya_view,aksiya_detail_view
+from .views import index, about_view,aksiya_view,aksiya_detail_view,services_view
 from django.conf.urls.i18n import i18n_patterns  # i18n_patterns importi
 
 app_name = 'core'
@@ -18,6 +18,7 @@ urlpatterns += i18n_patterns(  # i18n_patterns bilan URL'lar qo'shish
     path('', index, name='home'),
     path('about/', about_view, name='about'),
     path('aksiys/',aksiya_view,name="aksiys"),
+    path('services/',services_view,name="services"),
     path('aksiys/<int:id>/',aksiya_detail_view,name="aksiy_detail"),
     path('products/', include('products.urls')),
     path('news/', include('news.urls')),

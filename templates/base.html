@@ -73,6 +73,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'aksiys' %}">{% blocktranslate %} Aksiyalar {% endblocktranslate%}</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'services' %}">{% blocktranslate %} Servis {% endblocktranslate%}</a>
+              </li>
+              <div class="nav-item">
+                <a class="nav-link" download href="{% static 'file/cars.pdf' %}">{% blocktranslate %} Katalogni Yuklash {% endblocktranslate%}</a>
+
+              </div>
               <li class="nav-item p-1 sm-none">
               
                 <form action="{% url 'set_language' %}" class="d-flex" method="post" id="languageForm">
@@ -103,14 +110,15 @@
     <div class="row bg-dark text-light mt-5">
       <div class="row p-5">
           <div class="col-md-3">
-              <img src="{% static 'images/footer.png' %}" alt="SamAuto Logo" class="img-fluid object-fit-contain w-50">
-              <p class="mt-3">POWERED BY ISUZU</p>
-              <p>+998 (78) 140-80-00</p>
+              <h5 class="mt-1">"Buxara Auto Leader" MCHJ </h5>
+              <p>+998 (88) 306-05-00</p>
+              <p>+998 (88) 307-05-00</p>
+              <a href="https://inbox@buxara.uz" class="btn text-white"><i class="fa-solid fa-envelope"></i> inbox@buxara.uz</a>
               <ul class="list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-telegram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-facebook"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-youtube"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-white"><i class="fa-brands fa-telegram fs-3"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-white"><i class="fa-brands fa-instagram fs-3"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-white"><i class="fa-brands fa-facebook fs-3"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-white"><i class="fa-brands fa-youtube fs-3"></i></a></li>
               </ul>
           </div>
           <div class="col-md-9">
@@ -127,12 +135,12 @@
                   <div class="col-md-3">
                       <h5>{% blocktranslate %}  Maxsus Takliflar{% endblocktranslate %}</h5>
                       <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">{% blocktranslate %}Aksiyalar {% endblocktranslate %}</a></li>
-                        <li><a href="#" class="text-white">{% blocktranslate %}Yangiliklar {% endblocktranslate %}</a></li>
+                        <li><a href="{% url 'aksiys' %}" class="text-white">{% blocktranslate %}Aksiyalar {% endblocktranslate %}</a></li>
+                        <li><a href="{% url 'news:news_all' %}" class="text-white">{% blocktranslate %}Yangiliklar {% endblocktranslate %}</a></li>
                       </ul>
                   </div>
                   <div class="col-md-3">
-                      <h5>Service</h5>
+                      <h5>{% blocktranslate %}Servis {% endblocktranslate %}</h5>
                       <ul class="list-unstyled">
                           <li><a href="#" class="text-white">{% blocktranslate %}Ehtiyot qismlar {% endblocktranslate %}</a></li>
                       </ul>

@@ -1,15 +1,23 @@
 {% extends 'base.html' %}
-
+{% load i18n %}
 {% block title %}
 {{product.title}}
 {% endblock title %}
 
 {% block content %}
 <nav aria-label="breadcrumb mt-3">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Details</li>
-    </ol>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">
+      {% blocktranslate %}
+      Home
+      {% endblocktranslate %}
+    </a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'aksiys' %}">
+      {% blocktranslate %}
+      Detail
+      {% endblocktranslate %}
+    </a></li>
+  </ol>
   </nav>
 
   <div class="container">
@@ -27,40 +35,44 @@
         </div>
     </div>
     <div class="row mt-3">
-        <h3 class="fs-2">Texnik tasnifi</h3>
+        <h3 class="fs-2">
+          {% blocktranslate %}
+          Texnik tasnifi
+          {% endblocktranslate %}
+        </h3>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.weight}} weight
+            {{product.characteristic.weight}} {% blocktranslate %}weight{% endblocktranslate %}
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.composity}} composity
+            {{product.characteristic.composity}} {% blocktranslate %}composity{% endblocktranslate %}
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.wheel_formula}} wheel formula
+            {{product.characteristic.wheel_formula}} {% blocktranslate %}wheel_formula{% endblocktranslate %}
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.dimensions}} Dimensions
+            {{product.characteristic.dimensions}} {% blocktranslate %}dimensions{% endblocktranslate %}
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.working_volue}} Working volume
+            {{product.characteristic.working_volue}} {% blocktranslate %}working volue{% endblocktranslate %}
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.wheelbase}} Wheelbase
+            {{product.characteristic.wheelbase}} {% blocktranslate %}wheelbase{% endblocktranslate %}
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="alert alert-secondary" role="alert">
-            {{product.characteristic.fuel_type.name}} Fuel Type
+            {{product.characteristic.fuel_type.name}} {% blocktranslate %}fuel type{% endblocktranslate %}
           </div>
         </div>
     </div>

@@ -5,6 +5,9 @@ from django.utils.text import slugify
 class FuelType(models.Model):
     name = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.name
+
 class Characteristic(models.Model):
     weight = models.CharField(max_length=100)
     compacity = models.CharField(max_length=100)
@@ -13,6 +16,14 @@ class Characteristic(models.Model):
     working_volume = models.CharField(max_length=10)
     wheelbase = models.CharField(max_length=100)
     fuel_type = models.ForeignKey(FuelType, on_delete=models.CASCADE)
+
+
+
+    def __str__(self):
+      return f"""weight:{self.weight} compacity:{self.compacity} 
+wheel_formula:{self.wheel_formula} dimensions:{self.dimensions} 
+working_volume:{self.working_volume} wheelbase:{self.wheelbase}"""
+
 
 class Category(models.Model):
     name = models.CharField(max_length=255, default='yuk avtomobile')
