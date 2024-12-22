@@ -4,6 +4,9 @@
     position: relative;
     height: 500px;
     transition:  all .5s ease;
+    background: rgb(255, 19, 2);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
 }
 
 .custom-card:hover{
@@ -141,3 +144,16 @@
     display: none !important;
   }
   
+
+
+  select.form-select {
+    cursor: pointer;
+    background-color: transparent;
+    color: #495057; /* Text color */
+}
+
+select.form-select:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove focus shadow */
+}
+

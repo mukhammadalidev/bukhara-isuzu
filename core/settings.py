@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-v5cf76d*bjjbafg7u47tewlc0t=2sp9vlsx7q_+yijm@5cnm1&'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['buxara.uz','www.buxara.uz','127.0.0.1']
 
 
 
@@ -155,13 +156,13 @@ import os
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS = ('/home/djangomo/buxara-auto.uz/django/static',)
+STATIC_ROOT = '/home/djangomo/buxara-auto.uz/django/staticfiles'
 
 
 # Media files configuration
-MEDIA_URL = '/media/'  # URL to access media files
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # File system path to store media files
+MEDIA_URL = '/media/'
+MEDIA_ROOT ='/home/djangomo/buxara.uz/django/media'
 
 
 CACHES = {

@@ -1,18 +1,107 @@
-{% extends 'base.html' %}
-{% load i18n %}
-{% block title %}
-Biz haqimizda
-{% endblock title %}
+{% extends 'base.html' %} 
+
+{% load static %}
+{% load i18n %} 
+{% block title %} Biz haqimizda 
+{%endblock title %} 
 
 {% block content %}
 
-<h1>
 
-{% blocktranslate %}
-Biz haqimizda
-{% endblocktranslate %}
-
-</h1>
-
-
+<div class="container mt-3" data-aos="fade-up">
+    <div class="row ">
+        <h1>{% blocktranslate %} Biz haqimizda {% endblocktranslate %}</h1>
+        
+          <div class="col-12"  data-aos="fade-up">
+            <img
+              src="{% static 'images/banner-5.webp' %}"
+              alt=""
+              class="img-fluid rounded"
+              height="250px"
+            />
+          </div>
+          <div class="col-12 col-md-6 p-3" data-aos="fade-up">
+            <h3>
+                {% blocktranslate %}
+                Office in Bukhara
+                {% endblocktranslate %}
+            </h3>
+            <div class="box mx-auto">
+              <h3 class="icons fs-5"><i class="fa-solid fa-location-dot"></i> 
+            {% blocktranslate %}
+            Address
+            {% endblocktranslate %}
+            </h3>
+              <p class="text-secondary fs-6">
+                {% blocktranslate %}
+                Истикбол МФЙ, Kogon, Bukhara Region, Uzbekistan
+                {% endblocktranslate %}
+              </p>
+            </div>
+            <div class="box">
+              <h3 class="icons fs-5"><i class="fa-solid fa-phone"></i> 
+            {% blocktranslate %}
+            Contacts
+            {% endblocktranslate %}
+            </h3>
+              <p class="text-secondary fs-6">+998 88 307-05-00</p>
+            </div>
+            <div class="box">
+                <h3 class="icons fs-5"><i class="fa-regular fa-envelope"></i> Email</h3>
+                <p class="text-secondary fs-6"><a href="mailto: info@buxara-auto.uz">info@buxara-auto.uz</a></p>
+              </div>
+              <div class="box">
+                <h3 class="icons fs-5"><i class="fa-solid fa-hourglass-start"></i> 
+                {% blocktranslate %}
+                Works
+                {% endblocktranslate %}
+                </h3>
+                <p class="text-secondary fs-6">
+                    {% blocktranslate %}Monday {% endblocktranslate %}
+                    -     {% blocktranslate %}Friday {% endblocktranslate %} 09:00-18:00
+                </p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 p-3 fade-left" data-aos="fade-up">
+            <h3>
+                {% blocktranslate %}
+                Factory in Samarkand
+                {% endblocktranslate %}
+            </h3>
+            <div class="box mx-auto">
+              <h3 class="icons fs-5"><i class="fa-solid fa-location-dot"></i> 
+            {% blocktranslate %}
+            Address
+            {% endblocktranslate %}
+            </h3>
+              <p class="text-secondary fs-6">
+                {% blocktranslate %}
+                JV LLC "Samarkand Automobile Factory" Republic of Uzbekistan, 140160, Samarkand, Suleiman Bukhoriy street, 5
+                {% endblocktranslate %}
+              </p>
+            </div>
+            <div class="box">
+              <h3 class="icons fs-5"><i class="fa-solid fa-phone"></i>   {% blocktranslate %}
+                Contacts
+                {% endblocktranslate %}</h3>
+              <p class="text-secondary fs-6">+998 55 701 87 00</p>
+            </div>
+            <div class="box">
+                <h3 class="icons fs-5"><i class="fa-regular fa-envelope"></i> Email</h3>
+                <p class="text-secondary fs-6"><a href="mailto: info@samauto.uz">info@samauto.uz</a></p>
+              </div>
+              <div class="box">
+                <h3 class="icons fs-5"><i class="fa-solid fa-hourglass-start"></i> 
+                    {% blocktranslate %}
+                    Works
+                    {% endblocktranslate %}
+                    </h3>
+                 <p class="text-secondary fs-6">
+                    {% blocktranslate %}Monday {% endblocktranslate %}
+                    -     {% blocktranslate %}Friday {% endblocktranslate %} 09:00-18:00
+                </p>
+              </div>
+          </div>
+        </div>
+</div>
 {% endblock content %}

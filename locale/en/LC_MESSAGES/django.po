@@ -1,142 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-21 15:18+0000\n"
+"POT-Creation-Date: 2024-12-21 17:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: English <LL@li.org>\n"
-"Language: en\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
+#: core/settings.py:58
 msgid "English"
 msgstr "English"
 
+#: core/settings.py:59
 msgid "Russian"
 msgstr "Russian"
 
+#: core/settings.py:60
 msgid "Uzbek"
 msgstr "Uzbek"
 
-msgid "\n      Home\n      "
-msgstr "\n      Home\n      "
+#: templates/Aksiya.html:8 templates/detail.html:8
+#: templates/detail_product.html:11 templates/news.html:8
+#: templates/news_detail.html:8 templates/products.html:8
+msgid "\n      Home\n"
+msgstr "\n      Home\n"
 
-msgid "\n      Aksiyalar\n      "
-msgstr "\n      Promotions\n      "
+#: templates/Aksiya.html:13
+msgid "\n      Aksiyalar\n"
+msgstr "\n      Promotions\n"
 
-msgid "\n                    Batafsil\n                    "
-msgstr "\n                    Details\n                    "
+#: templates/Aksiya.html:40
+msgid "\n                    Batafsil\n"
+msgstr "\n                    More details\n"
 
-msgid "\nBiz haqimizda\n"
-msgstr "\nAbout Us\n"
+#: templates/about.html:13
+msgid " Biz haqimizda "
+msgstr "About us"
 
-msgid "\n        Home\n        "
-msgstr "\n        Home\n        "
+#: templates/about.html:25
+msgid "\n                Office in Bukhara\n"
+msgstr "\n                Office in Bukhara\n"
 
-msgid "\n        Aksiyalar\n        "
-msgstr "\n        Promotions\n        "
+#: templates/about.html:31 templates/about.html:73
+msgid "\n            Address\n"
+msgstr "\n            Address\n"
 
+#: templates/about.html:36
+msgid "\n                Истикбол МФЙ, Kogon, Bukhara Region, Uzbekistan\n"
+msgstr "\n                Istikbol MFG, Kogon, Bukhara Region, Uzbekistan\n"
+
+#: templates/about.html:43
+msgid "\n            Contacts\n"
+msgstr "\n            Contacts\n"
+
+#: templates/about.html:55
+msgid "\n                Works\n"
+msgstr "\n                Works\n"
+
+#: templates/about.html:60 templates/about.html:100
+msgid "Monday "
+msgstr "Monday "
+
+#: templates/about.html:61 templates/about.html:101
+msgid "Friday "
+msgstr "Friday "
+
+#: templates/about.html:67
+msgid "\n                Factory in Samarkand\n"
+msgstr "\n                Factory in Samarkand\n"
+
+#: templates/about.html:78
+msgid "\n                JV LLC \"Samarkand Automobile Factory\" Republic of Uzbekistan, 140160, Samarkand, Suleiman Bukhoriy street, 5\n"
+msgstr "\n                JV LLC \"Samarkand Automobile Factory\" Republic of Uzbekistan, 140160, Samarkand, Suleiman Bukhoriy street, 5\n"
+
+#: templates/about.html:84
+msgid "\n                Contacts\n"
+msgstr "\n                Contacts\n"
+
+#: templates/about.html:95
+msgid "\n                    Works\n"
+msgstr "\n                    Works\n"
+
+#: templates/aksiya_detail.html:11
+msgid "\n        Home\n"
+msgstr "\n        Home\n"
+
+#: templates/aksiya_detail.html:16
+msgid "\n        Aksiyalar\n"
+msgstr "\n        Promotions\n"
+
+#: templates/base.html:62
 msgid "Asosiy "
-msgstr "Main "
+msgstr "Home"
 
+#: templates/base.html:65
 msgid "Mahsulotlar "
-msgstr "Products "
+msgstr "Products"
 
+#: templates/base.html:68 templates/base.html:139
 msgid "Yangiliklar "
-msgstr "News "
+msgstr "News"
 
+#: templates/base.html:71
 msgid "Biz haqimizda "
-msgstr "About Us "
+msgstr "About us"
 
+#: templates/base.html:74
 msgid " Aksiyalar "
-msgstr " Promotions "
+msgstr "Promotions"
 
+#: templates/base.html:77
 msgid " Servis "
-msgstr " Service "
+msgstr "Service"
 
+#: templates/base.html:80
 msgid " Katalogni Yuklash "
-msgstr " Download Catalog "
+msgstr "Download Catalog"
 
+#: templates/base.html:127
 msgid "Modellar Qatori "
-msgstr "Model Range "
+msgstr "Model Range"
 
+#: templates/base.html:129
 msgid "Avtobuslar "
-msgstr "Buses "
+msgstr "Buses"
 
+#: templates/base.html:130
 msgid "Yuk mashinalar "
-msgstr "Trucks "
+msgstr "Trucks"
 
+#: templates/base.html:131
 msgid "Maxsus texnikalar "
-msgstr "Special Equipment "
+msgstr "Special Equipment"
 
+#: templates/base.html:132
 msgid "Pikaplar "
-msgstr "Pickups "
+msgstr "Pickups"
 
+#: templates/base.html:136
 msgid "  Maxsus Takliflar"
-msgstr "  Special Offers"
+msgstr "Special Offers"
 
+#: templates/base.html:138
 msgid "Aksiyalar "
-msgstr "Promotions "
+msgstr "Promotions"
 
+#: templates/base.html:143
 msgid "Servis "
-msgstr "Service "
+msgstr "Service"
 
+#: templates/base.html:145
 msgid "Ehtiyot qismlar "
-msgstr "Spare Parts "
+msgstr "Spare Parts"
 
-msgid "\n      Detail\n      "
-msgstr "\n      Detail\n      "
+#: templates/detail.html:13 templates/detail_product.html:16
+#: templates/news.html:13
+msgid "\n      Detail\n"
+msgstr "\n      Detail\n"
 
+#: templates/detail.html:38 templates/news.html:42
 msgid " Batafsil "
-msgstr " Details "
+msgstr "More details"
 
-msgid "\n          Texnik tasnifi\n          "
-msgstr "\n          Technical Specifications\n          "
+#: templates/detail_product.html:39
+msgid "\n          Texnik tasnifi\n"
+msgstr "\n          Technical classification\n"
 
+#: templates/detail_product.html:45
 msgid "weight"
-msgstr "Weight"
+msgstr "weight"
 
+#: templates/detail_product.html:50
 msgid "composity"
-msgstr "Capacity"
+msgstr "composity"
 
+#: templates/detail_product.html:55
 msgid "wheel_formula"
-msgstr "Wheel Formula"
+msgstr "wheel formula"
 
+#: templates/detail_product.html:60
 msgid "dimensions"
-msgstr "Dimensions"
+msgstr "dimensions"
 
+#: templates/detail_product.html:65
 msgid "working volue"
-msgstr "Working Volume"
+msgstr "working volume"
 
+#: templates/detail_product.html:70
 msgid "wheelbase"
-msgstr "Wheelbase"
+msgstr "wheelbase"
 
+#: templates/detail_product.html:75
 msgid "fuel type"
-msgstr "Fuel Type"
+msgstr "fuel type"
 
+#: templates/index.html:29
 msgid "Mahsulotlar"
 msgstr "Products"
 
+#: templates/index.html:49
 msgid "Dilerlik"
 msgstr "Dealership"
 
+#: templates/index.html:62
 msgid " Yangilik "
-msgstr " News "
+msgstr "News"
 
+#: templates/index.html:75
 msgid "Batafsil"
-msgstr "Details"
+msgstr "More details"
 
-msgid "\n      News\n      "
-msgstr "\n      News\n      "
+#: templates/news_detail.html:13
+msgid "\n      News\n"
+msgstr "\n      News\n"
 
-msgid "\n      Products\n      "
-msgstr "\n      Products\n      "
+#: templates/products.html:13
+msgid "\n      Products\n"
+msgstr "\n      Products\n"
 
-msgid "\n                      Ba'tafsil\n                      "
-msgstr "\n                      Details\n                      "
+#: templates/products.html:40
+msgid "\n                      Ba'tafsil\n"
+msgstr "\n                      More details\n"
 
+#: templates/services.html:12
 msgid "\nBizning Xizmatlar\n"
 msgstr "\nOur Services\n"

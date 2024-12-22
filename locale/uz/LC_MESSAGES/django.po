@@ -1,142 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-21 15:18+0000\n"
+"POT-Creation-Date: 2024-12-21 17:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Uzbek <LL@li.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
+#: core/settings.py:58
 msgid "English"
 msgstr "Inglizcha"
 
+#: core/settings.py:59
 msgid "Russian"
 msgstr "Ruscha"
 
+#: core/settings.py:60
 msgid "Uzbek"
-msgstr "O‘zbekcha"
+msgstr "O'zbekcha"
 
-msgid "\n      Home\n      "
-msgstr "\n      Bosh sahifa\n      "
+#: templates/Aksiya.html:8 templates/detail.html:8
+#: templates/detail_product.html:11 templates/news.html:8
+#: templates/news_detail.html:8 templates/products.html:8
+msgid ""
+"\n"
+"      Home\n"
+"      "
+msgstr "Bosh sahifa"
 
-msgid "\n      Aksiyalar\n      "
-msgstr "\n      Aksiyalar\n      "
+#: templates/Aksiya.html:13
+msgid ""
+"\n"
+"      Aksiyalar\n"
+"      "
+msgstr "Aksiyalar"
 
-msgid "\n                    Batafsil\n                    "
-msgstr "\n                    Batafsil\n                    "
+#: templates/Aksiya.html:40
+msgid ""
+"\n"
+"                    Batafsil\n"
+"                    "
+msgstr "Batafsil"
 
-msgid "\nBiz haqimizda\n"
-msgstr "\nBiz haqimizda\n"
+#: templates/about.html:13
+msgid " Biz haqimizda "
+msgstr "Biz haqimizda"
 
-msgid "\n        Home\n        "
-msgstr "\n        Bosh sahifa\n        "
+#: templates/about.html:25
+msgid ""
+"\n"
+"                Office in Bukhara\n"
+"                "
+msgstr "Buxoradagi ofis"
 
-msgid "\n        Aksiyalar\n        "
-msgstr "\n        Aksiyalar\n        "
+#: templates/about.html:31 templates/about.html:73
+msgid ""
+"\n"
+"            Address\n"
+"            "
+msgstr "Manzil"
 
+#: templates/about.html:36
+msgid ""
+"\n"
+"                Истикбол МФЙ, Kogon, Bukhara Region, Uzbekistan\n"
+"                "
+msgstr "Istiqbol MFY, Kogon, Buxoro viloyati, O'zbekiston"
+
+#: templates/about.html:43
+msgid ""
+"\n"
+"            Contacts\n"
+"            "
+msgstr "Aloqalar"
+
+#: templates/about.html:55
+msgid ""
+"\n"
+"                Works\n"
+"                "
+msgstr "Ish va xizmatlar"
+
+#: templates/about.html:60 templates/about.html:100
+msgid "Monday "
+msgstr "Dushanba"
+
+#: templates/about.html:61 templates/about.html:101
+msgid "Friday "
+msgstr "Juma"
+
+#: templates/about.html:67
+msgid ""
+"\n"
+"                Factory in Samarkand\n"
+"                "
+msgstr "Samarqanddagi zavod"
+
+#: templates/about.html:78
+msgid ""
+"\n"
+"                JV LLC \"Samarkand Automobile Factory\" Republic of "
+"Uzbekistan, 140160, Samarkand, Suleiman Bukhoriy street, 5\n"
+"                "
+msgstr "JV MCHJ \"Samarqand Avtomobil Zavodi\", O'zbekiston Respublikasi, 140160, Samarqand, Sulaymon Bukhoriy ko'chasi, 5"
+
+#: templates/about.html:84
+msgid ""
+"\n"
+"                Contacts\n"
+"                "
+msgstr "Aloqalar"
+
+#: templates/about.html:95
+msgid ""
+"\n"
+"                    Works\n"
+"                    "
+msgstr "Ish va xizmatlar"
+
+#: templates/aksiya_detail.html:11
+msgid ""
+"\n"
+"        Home\n"
+"        "
+msgstr "Bosh sahifa"
+
+#: templates/aksiya_detail.html:16
+msgid ""
+"\n"
+"        Aksiyalar\n"
+"        "
+msgstr "Aksiyalar"
+
+#: templates/base.html:62
 msgid "Asosiy "
-msgstr "Asosiy "
+msgstr "Asosiy"
 
+#: templates/base.html:65
 msgid "Mahsulotlar "
-msgstr "Mahsulotlar "
+msgstr "Mahsulotlar"
 
+#: templates/base.html:68 templates/base.html:139
 msgid "Yangiliklar "
-msgstr "Yangiliklar "
+msgstr "Yangiliklar"
 
+#: templates/base.html:71
 msgid "Biz haqimizda "
-msgstr "Biz haqimizda "
+msgstr "Biz haqimizda"
 
+#: templates/base.html:74
 msgid " Aksiyalar "
-msgstr " Aksiyalar "
+msgstr "Aksiyalar"
 
+#: templates/base.html:77
 msgid " Servis "
-msgstr " Servis "
+msgstr "Servis"
 
+#: templates/base.html:80
 msgid " Katalogni Yuklash "
-msgstr " Katalogni Yuklash "
+msgstr "Katalogni Yuklash"
 
+#: templates/base.html:127
 msgid "Modellar Qatori "
-msgstr "Modellar Qatori "
+msgstr "Modellar Qatori"
 
+#: templates/base.html:129
 msgid "Avtobuslar "
-msgstr "Avtobuslar "
+msgstr "Avtobuslar"
 
+#: templates/base.html:130
 msgid "Yuk mashinalar "
-msgstr "Yuk mashinalar "
+msgstr "Yuk mashinalar"
 
+#: templates/base.html:131
 msgid "Maxsus texnikalar "
-msgstr "Maxsus texnikalar "
+msgstr "Maxsus texnikalar"
 
+#: templates/base.html:132
 msgid "Pikaplar "
-msgstr "Pikaplar "
+msgstr "Pikaplar"
 
+#: templates/base.html:136
 msgid "  Maxsus Takliflar"
-msgstr "  Maxsus Takliflar"
+msgstr "Maxsus Takliflar"
 
+#: templates/base.html:138
 msgid "Aksiyalar "
-msgstr "Aksiyalar "
+msgstr "Aksiyalar"
 
+#: templates/base.html:143
 msgid "Servis "
-msgstr "Servis "
+msgstr "Servis"
 
+#: templates/base.html:145
 msgid "Ehtiyot qismlar "
-msgstr "Ehtiyot qismlar "
+msgstr "Ehtiyot qismlar"
 
-msgid "\n      Detail\n      "
-msgstr "\n      Batafsil\n      "
+#: templates/detail.html:13 templates/detail_product.html:16
+#: templates/news.html:13
+msgid ""
+"\n"
+"      Detail\n"
+"      "
+msgstr "Batafsil"
 
+#: templates/detail.html:38 templates/news.html:42
 msgid " Batafsil "
-msgstr " Batafsil "
+msgstr "Batafsil"
 
-msgid "\n          Texnik tasnifi\n          "
-msgstr "\n          Texnik Tavsifi\n          "
+#: templates/detail_product.html:39
+msgid ""
+"\n"
+"          Texnik tasnifi\n"
+"          "
+msgstr "Texnik tasnifi"
 
+#: templates/detail_product.html:45
 msgid "weight"
-msgstr "Og'irlik"
+msgstr "og'irlik"
 
+#: templates/detail_product.html:50
 msgid "composity"
-msgstr "Sig'im"
+msgstr "kompozitsiya"
 
+#: templates/detail_product.html:55
 msgid "wheel_formula"
-msgstr "G'ildirak formulasi"
+msgstr "g'ildirak formulasi"
 
+#: templates/detail_product.html:60
 msgid "dimensions"
-msgstr "O'lchamlar"
+msgstr "o'lchamlar"
 
+#: templates/detail_product.html:65
 msgid "working volue"
-msgstr "Ish hajmi"
+msgstr "ish hajmi"
 
+#: templates/detail_product.html:70
 msgid "wheelbase"
-msgstr "G'ildirak oralig'i"
+msgstr "g'ildirak bazasi"
 
+#: templates/detail_product.html:75
 msgid "fuel type"
-msgstr "Yoqilg'i turi"
+msgstr "yoqilg'i turi"
 
+#: templates/index.html:29
 msgid "Mahsulotlar"
 msgstr "Mahsulotlar"
 
+#: templates/index.html:49
 msgid "Dilerlik"
 msgstr "Dilerlik"
 
+#: templates/index.html:62
 msgid " Yangilik "
-msgstr " Yangilik "
+msgstr "Yangilik"
 
+#: templates/index.html:75
 msgid "Batafsil"
 msgstr "Batafsil"
 
-msgid "\n      News\n      "
-msgstr "\n      Yangiliklar\n      "
+#: templates/news_detail.html:13
+msgid ""
+"\n"
+"      News\n"
+"      "
+msgstr "Yangilik"
 
-msgid "\n      Products\n      "
-msgstr "\n      Mahsulotlar\n      "
+#: templates/products.html:13
+msgid ""
+"\n"
+"      Products\n"
+"      "
+msgstr "Mahsulotlar"
 
-msgid "\n                      Ba'tafsil\n                      "
-msgstr "\n                      Batafsil\n                      "
+#: templates/products.html:40
+msgid ""
+"\n"
+"                      Ba'tafsil\n"
+"                      "
+msgstr "Batafsil"
 
-msgid "\nBizning Xizmatlar\n"
-msgstr "\nBizning Xizmatlarimiz\n"
+#: templates/services.html:12
+msgid ""
+"\n"
+"Bizning Xizmatlar\n"
+msgstr "Bizning Xizmatlar"
