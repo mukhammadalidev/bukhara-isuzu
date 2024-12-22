@@ -156,13 +156,13 @@ import os
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
-STATICFILES_DIRS = ('/home/buxaraau/buxara-auto.uz/buxaraau/static',)
-STATIC_ROOT = '/home/buxaraau/buxara-auto.uz/buxaraau/staticfiles'
+STATICFILES_DIRS = ('/home/buxaraau/buxara-auto.uz/django/static',)
+STATIC_ROOT = '/home/buxaraau/buxara-auto.uz/django/staticfiles'
 
 
 # Media files configuration
 MEDIA_URL = '/media/'
-MEDIA_ROOT ='/home/buxaraau/buxara.uz/buxaraau/media'
+MEDIA_ROOT ='/home/buxaraau/buxara.uz/django/media'
 
 
 CACHES = {
