@@ -31,7 +31,7 @@
 
         <div class="col-12 col-md-3 mt-3">
           <div class="card shadow-sm border-0" style="max-width: 400px; margin: auto;">
-            <img src="{{x.image.url}}" alt="ISUZU CYZ51P" class="card-img-top">
+            <img src="{{x.image.url}}" height="250px" alt="ISUZU CYZ51P" class="img-fluid object-fit-cover">
             <div class="card-body text-center">
                 <h5 class="card-title fw-bold fs-6">{{x.title | truncatewords:20}}</h5>
                 <a href="{% url 'product:category-detail' x.id %}" class="btn btn-light border d-flex align-items-center justify-content-center">

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-21 17:25+0000\n"
+"POT-Creation-Date: 2024-12-24 11:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: core/settings.py:58
+#: core/settings.py:59
 msgid "English"
 msgstr "Inglizcha"
 
-#: core/settings.py:59
+#: core/settings.py:60
 msgid "Russian"
 msgstr "Ruscha"
 
-#: core/settings.py:60
+#: core/settings.py:61
 msgid "Uzbek"
 msgstr "O'zbekcha"
 
@@ -36,21 +36,27 @@ msgid ""
 "\n"
 "      Home\n"
 "      "
-msgstr "Bosh sahifa"
+msgstr "\n"
+"      Bosh sahifa\n"
+"      "
 
 #: templates/Aksiya.html:13
 msgid ""
 "\n"
 "      Aksiyalar\n"
 "      "
-msgstr "Aksiyalar"
+msgstr "\n"
+"      Aksiyalar\n"
+"      "
 
 #: templates/Aksiya.html:40
 msgid ""
 "\n"
 "                    Batafsil\n"
 "                    "
-msgstr "Batafsil"
+msgstr "\n"
+"                    Batafsil\n"
+"                    "
 
 #: templates/about.html:13
 msgid " Biz haqimizda "
@@ -61,35 +67,45 @@ msgid ""
 "\n"
 "                Office in Bukhara\n"
 "                "
-msgstr "Buxoradagi ofis"
+msgstr "\n"
+"                Buxoradagi ofis\n"
+"                "
 
 #: templates/about.html:31 templates/about.html:73
 msgid ""
 "\n"
 "            Address\n"
 "            "
-msgstr "Manzil"
+msgstr "\n"
+"            Manzil\n"
+"            "
 
 #: templates/about.html:36
 msgid ""
 "\n"
 "                Истикбол МФЙ, Kogon, Bukhara Region, Uzbekistan\n"
 "                "
-msgstr "Istiqbol MFY, Kogon, Buxoro viloyati, O'zbekiston"
+msgstr "\n"
+"                Istikbol MFY, Kogon, Buxoro viloyati, O'zbekiston\n"
+"                "
 
 #: templates/about.html:43
 msgid ""
 "\n"
 "            Contacts\n"
 "            "
-msgstr "Aloqalar"
+msgstr "\n"
+"            Aloqalar\n"
+"            "
 
 #: templates/about.html:55
 msgid ""
 "\n"
 "                Works\n"
 "                "
-msgstr "Ish va xizmatlar"
+msgstr "\n"
+"                Ishlar\n"
+"                "
 
 #: templates/about.html:60 templates/about.html:100
 msgid "Monday "
@@ -104,7 +120,9 @@ msgid ""
 "\n"
 "                Factory in Samarkand\n"
 "                "
-msgstr "Samarqanddagi zavod"
+msgstr "\n"
+"                Samarqanddagi zavod\n"
+"                "
 
 #: templates/about.html:78
 msgid ""
@@ -112,35 +130,45 @@ msgid ""
 "                JV LLC \"Samarkand Automobile Factory\" Republic of "
 "Uzbekistan, 140160, Samarkand, Suleiman Bukhoriy street, 5\n"
 "                "
-msgstr "JV MCHJ \"Samarqand Avtomobil Zavodi\", O'zbekiston Respublikasi, 140160, Samarqand, Sulaymon Bukhoriy ko'chasi, 5"
+msgstr "\n"
+"                JV MChJ \"Samarqand Avtomobil Zavodi\" O'zbekiston Respublikasi, 140160, Samarqand, Sulaymon Buxoriy ko'chasi, 5\n"
+"                "
 
 #: templates/about.html:84
 msgid ""
 "\n"
 "                Contacts\n"
 "                "
-msgstr "Aloqalar"
+msgstr "\n"
+"                Aloqalar\n"
+"                "
 
 #: templates/about.html:95
 msgid ""
 "\n"
 "                    Works\n"
 "                    "
-msgstr "Ish va xizmatlar"
+msgstr "\n"
+"                    Ishlar\n"
+"                    "
 
 #: templates/aksiya_detail.html:11
 msgid ""
 "\n"
 "        Home\n"
 "        "
-msgstr "Bosh sahifa"
+msgstr "\n"
+"        Bosh sahifa\n"
+"        "
 
 #: templates/aksiya_detail.html:16
 msgid ""
 "\n"
 "        Aksiyalar\n"
 "        "
-msgstr "Aksiyalar"
+msgstr "\n"
+"        Aksiyalar\n"
+"        "
 
 #: templates/base.html:62
 msgid "Asosiy "
@@ -212,44 +240,57 @@ msgid ""
 "\n"
 "      Detail\n"
 "      "
-msgstr "Batafsil"
+msgstr "\n"
+"      Batafsil\n"
+"      "
 
 #: templates/detail.html:38 templates/news.html:42
 msgid " Batafsil "
 msgstr "Batafsil"
 
-#: templates/detail_product.html:39
+#: templates/detail_product.html:36
+msgid ""
+"\n"
+"              download\n"
+"              "
+msgstr "\n"
+"              yuklab olish\n"
+"              "
+
+#: templates/detail_product.html:44
 msgid ""
 "\n"
 "          Texnik tasnifi\n"
 "          "
-msgstr "Texnik tasnifi"
-
-#: templates/detail_product.html:45
-msgid "weight"
-msgstr "og'irlik"
+msgstr "\n"
+"          Texnik tasnifi\n"
+"          "
 
 #: templates/detail_product.html:50
+msgid "weight"
+msgstr "og'irligi"
+
+#: templates/detail_product.html:55
 msgid "composity"
 msgstr "kompozitsiya"
 
-#: templates/detail_product.html:55
-msgid "wheel_formula"
-msgstr "g'ildirak formulasi"
-
 #: templates/detail_product.html:60
-msgid "dimensions"
-msgstr "o'lchamlar"
+msgid "wheel_formula"
+msgstr "g'ildirak formasi"
 
 #: templates/detail_product.html:65
-msgid "working volue"
-msgstr "ish hajmi"
+msgid "dimensions"
+msgstr "o'lchamlari"
 
 #: templates/detail_product.html:70
+msgid "working volue"
+msgstr "ishchi hajmi"
+
+#: templates/detail_product.html:75
 msgid "wheelbase"
 msgstr "g'ildirak bazasi"
 
-#: templates/detail_product.html:75
+#: templates/detail_product.html:80
 msgid "fuel type"
 msgstr "yoqilg'i turi"
 
@@ -274,24 +315,31 @@ msgid ""
 "\n"
 "      News\n"
 "      "
-msgstr "Yangilik"
+msgstr "\n"
+"      Yangiliklar\n"
+"      "
 
 #: templates/products.html:13
 msgid ""
 "\n"
 "      Products\n"
 "      "
-msgstr "Mahsulotlar"
+msgstr "\n"
+"      Mahsulotlar\n"
+"      "
 
 #: templates/products.html:40
 msgid ""
 "\n"
 "                      Ba'tafsil\n"
 "                      "
-msgstr "Batafsil"
+msgstr "\n"
+"                      Batafsil\n"
+"                      "
 
 #: templates/services.html:12
 msgid ""
 "\n"
 "Bizning Xizmatlar\n"
-msgstr "Bizning Xizmatlar"
+msgstr "\n"
+"Bizning Xizmatlar\n"

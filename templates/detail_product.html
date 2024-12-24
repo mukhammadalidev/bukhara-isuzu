@@ -32,6 +32,12 @@
             <p>
                 {{product.description}}
             </p>
+            <a download target="_blank" class="btn btn-secondary" href="{{product.property_file}}">
+              <i class="fa-solid fa-download"></i>
+              {% blocktranslate %}
+              download
+              {% endblocktranslate %}
+            </a>
         </div>
     </div>
     <div class="row mt-3">

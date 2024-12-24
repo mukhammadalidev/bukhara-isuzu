@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['buxara.uz','www.buxara.uz','127.0.0.1']
+ALLOWED_HOSTS = ['buxara-auto.uz','www.buxara-auto.uz','127.0.0.1']
 
 
 
@@ -47,7 +47,7 @@ INSTALLED_APPS = [
   
 
 LOCALE_PATHS = (
-   BASE_DIR, 'locale/'
+  '/home/buxaraau/buxara-auto.uz/django/locale/',
 )
 
 
@@ -162,26 +162,16 @@ STATIC_ROOT = '/home/buxaraau/buxara-auto.uz/django/staticfiles'
 
 # Media files configuration
 MEDIA_URL = '/media/'
-MEDIA_ROOT ='/home/buxaraau/buxara.uz/django/media'
+MEDIA_ROOT ='/home/buxaraau/buxara-auto.uz/django/media'
 
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django_redis.cache.RedisCache',  # Redis kesh tizimi
-        'LOCATION': 'redis://127.0.0.1:6379/1',  # Redis server manzili
-        'OPTIONS': {
-            'CLIENT_CLASS': 'django_redis.client.DefaultClient',  # Redis mijoz sinfini sozlash
-        }
-    }
-}
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://b8ca-31-13-189-26.ngrok-free.app",
-    "https://c2b2-213-230-93-96.ngrok-free.app",
-    "https://e6e3-84-54-71-154.ngrok-free.app",
-    "https://5baf-84-54-71-154.ngrok-free.app",
-    "https://c12c-213-230-92-103.ngrok-free.app",
-    "https://ee8b-2a05-45c2-6058-e500-9f7-6f35-f77c-f8c5.ngrok-free.app",
+    "https://buxara-auto.uz/",
 ]
 

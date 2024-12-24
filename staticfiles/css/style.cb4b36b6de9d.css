@@ -1,0 +1,159 @@
+.custom-card {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    transition:  all .5s ease;
+    background: rgb(255, 19, 2);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+.custom-card:hover{
+    z-index: 99999;
+    transform: scale(1.1);
+}
+
+.custom-card img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.custom-card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.custom-card-content h4 {
+    font-weight: bold;
+}
+
+.custom-card-content a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.custom-card-content a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px) {
+    .custom-card {
+        margin-top: 10px;
+        height: 300px;
+    }
+
+    .navbar-brand  img{
+      height: 30px !important;
+    }
+    .carousel-inner{
+      height: 500px;
+    }
+    .custom-carousel-image {
+      height: 500px;
+      object-fit: cover; 
+    }
+    
+}
+
+
+
+/* news */
+.card-news {
+    width: 100%;
+    max-width: 350px;  /* Adjust the width based on your preference */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-news-img {
+    object-fit: cover;
+    height: 200px; /* Adjust the height of the image */
+  }
+  
+  .card-news-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;  /* Dark color for better visibility */
+    margin-bottom: 10px;
+  }
+  
+  .card-news-text {
+    font-size: 1rem;
+    color: #666;  /* Slightly lighter color for text */
+    margin-bottom: 20px;
+  }
+  
+  .card-news-link {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;  /* Button color */
+    border-radius: 25px;
+    padding: 10px 20px;
+  }
+  
+  .card-news-link:hover {
+    background-color: #0056b3; /* Button hover color */
+  }
+  
+
+.list-unstyled a{
+    text-decoration: none !important;
+}
+
+
+.list-unstyled a:hover{
+    text-decoration: underline !important;
+}
+
+.custom-card-news {
+    height: 200px;
+    width: 100%;
+    background-color: #000; /* Tim qora rang */
+    color: #fff; /* Matn uchun oq rang */
+    transition: transform 0.3s ease; /* Animatsiya */
+  }
+  .custom-card-news:hover {
+    transform: scale(1.03); /* Kursor borganda kattalashadi */
+  }
+  .custom-card-img-top-news {
+    height: 100px  !important;
+    width: 100%;
+    object-fit: cover; /* Rasmni butun kartani to'ldirishga moslashtiradi */
+  }
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+
+
+
+
+
+.md-none{
+    display: none !important;
+  }
+  
+
+
+  select.form-select {
+    cursor: pointer;
+    background-color: transparent;
+    color: #495057; /* Text color */
+}
+
+select.form-select:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove focus shadow */
+}
+

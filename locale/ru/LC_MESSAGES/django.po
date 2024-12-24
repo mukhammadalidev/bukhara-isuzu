@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-21 17:25+0000\n"
+"POT-Creation-Date: 2024-12-24 11:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,18 +16,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
-#: core/settings.py:58
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: core/settings.py:59
 msgid "English"
 msgstr "Английский"
 
-#: core/settings.py:59
+#: core/settings.py:60
 msgid "Russian"
 msgstr "Русский"
 
-#: core/settings.py:60
+#: core/settings.py:61
 msgid "Uzbek"
 msgstr "Узбекский"
 
@@ -38,21 +36,27 @@ msgid ""
 "\n"
 "      Home\n"
 "      "
-msgstr "Главная"
+msgstr "\n"
+"      Главная\n"
+"      "
 
 #: templates/Aksiya.html:13
 msgid ""
 "\n"
 "      Aksiyalar\n"
 "      "
-msgstr "Акции"
+msgstr "\n"
+"      Акции\n"
+"      "
 
 #: templates/Aksiya.html:40
 msgid ""
 "\n"
 "                    Batafsil\n"
 "                    "
-msgstr "Подробнее"
+msgstr "\n"
+"                    Подробнее\n"
+"                    "
 
 #: templates/about.html:13
 msgid " Biz haqimizda "
@@ -63,35 +67,45 @@ msgid ""
 "\n"
 "                Office in Bukhara\n"
 "                "
-msgstr "Офис в Бухаре"
+msgstr "\n"
+"                Офис в Бухаре\n"
+"                "
 
 #: templates/about.html:31 templates/about.html:73
 msgid ""
 "\n"
 "            Address\n"
 "            "
-msgstr "Адрес"
+msgstr "\n"
+"            Адрес\n"
+"            "
 
 #: templates/about.html:36
 msgid ""
 "\n"
 "                Истикбол МФЙ, Kogon, Bukhara Region, Uzbekistan\n"
 "                "
-msgstr "Истикбол МФЙ, Коган, Бухарская область, Узбекистан"
+msgstr "\n"
+"                Истикбол МФЙ, Когон, Бухарская область, Узбекистан\n"
+"                "
 
 #: templates/about.html:43
 msgid ""
 "\n"
 "            Contacts\n"
 "            "
-msgstr "Контакты"
+msgstr "\n"
+"            Контакты\n"
+"            "
 
 #: templates/about.html:55
 msgid ""
 "\n"
 "                Works\n"
 "                "
-msgstr "Работает"
+msgstr "\n"
+"                Работы\n"
+"                "
 
 #: templates/about.html:60 templates/about.html:100
 msgid "Monday "
@@ -106,7 +120,9 @@ msgid ""
 "\n"
 "                Factory in Samarkand\n"
 "                "
-msgstr "Завод в Самарканде"
+msgstr "\n"
+"                Завод в Самарканде\n"
+"                "
 
 #: templates/about.html:78
 msgid ""
@@ -114,35 +130,45 @@ msgid ""
 "                JV LLC \"Samarkand Automobile Factory\" Republic of "
 "Uzbekistan, 140160, Samarkand, Suleiman Bukhoriy street, 5\n"
 "                "
-msgstr "Совместное предприятие ООО \"Самаркандский автомобильный завод\", Республика Узбекистан, 140160, Самарканд, улица Сулеймана Бухорий, 5"
+msgstr "\n"
+"                JV ООО \"Самаркандский Автомобильный Завод\" Республика Узбекистан, 140160, Самарканд, улица Сулеймана Бухорий, 5\n"
+"                "
 
 #: templates/about.html:84
 msgid ""
 "\n"
 "                Contacts\n"
 "                "
-msgstr "Контакты"
+msgstr "\n"
+"                Контакты\n"
+"                "
 
 #: templates/about.html:95
 msgid ""
 "\n"
 "                    Works\n"
 "                    "
-msgstr "Работает"
+msgstr "\n"
+"                    Работы\n"
+"                    "
 
 #: templates/aksiya_detail.html:11
 msgid ""
 "\n"
 "        Home\n"
 "        "
-msgstr "Главная"
+msgstr "\n"
+"        Главная\n"
+"        "
 
 #: templates/aksiya_detail.html:16
 msgid ""
 "\n"
 "        Aksiyalar\n"
 "        "
-msgstr "Акции"
+msgstr "\n"
+"        Акции\n"
+"        "
 
 #: templates/base.html:62
 msgid "Asosiy "
@@ -150,7 +176,7 @@ msgstr "Главная"
 
 #: templates/base.html:65
 msgid "Mahsulotlar "
-msgstr "Продукты"
+msgstr "Продукция"
 
 #: templates/base.html:68 templates/base.html:139
 msgid "Yangiliklar "
@@ -170,7 +196,7 @@ msgstr "Сервис"
 
 #: templates/base.html:80
 msgid " Katalogni Yuklash "
-msgstr "Загрузить каталог"
+msgstr "Скачать каталог"
 
 #: templates/base.html:127
 msgid "Modellar Qatori "
@@ -182,7 +208,7 @@ msgstr "Автобусы"
 
 #: templates/base.html:130
 msgid "Yuk mashinalar "
-msgstr "Грузовики"
+msgstr "Грузовые машины"
 
 #: templates/base.html:131
 msgid "Maxsus texnikalar "
@@ -214,54 +240,67 @@ msgid ""
 "\n"
 "      Detail\n"
 "      "
-msgstr "Детали"
+msgstr "\n"
+"      Подробнее\n"
+"      "
 
 #: templates/detail.html:38 templates/news.html:42
 msgid " Batafsil "
 msgstr "Подробнее"
 
-#: templates/detail_product.html:39
+#: templates/detail_product.html:36
+msgid ""
+"\n"
+"              download\n"
+"              "
+msgstr "\n"
+"              скачать\n"
+"              "
+
+#: templates/detail_product.html:44
 msgid ""
 "\n"
 "          Texnik tasnifi\n"
 "          "
-msgstr "Техническая классификация"
+msgstr "\n"
+"          Техническая классификация\n"
+"          "
 
-#: templates/detail_product.html:45
+#: templates/detail_product.html:50
 msgid "weight"
 msgstr "вес"
 
-#: templates/detail_product.html:50
-msgid "composity"
-msgstr "состав"
-
 #: templates/detail_product.html:55
-msgid "wheel_formula"
-msgstr "формула колеса"
+msgid "composity"
+msgstr "композит"
 
 #: templates/detail_product.html:60
+msgid "wheel_formula"
+msgstr "формула колес"
+
+#: templates/detail_product.html:65
 msgid "dimensions"
 msgstr "размеры"
 
-#: templates/detail_product.html:65
+#: templates/detail_product.html:70
 msgid "working volue"
 msgstr "рабочий объем"
 
-#: templates/detail_product.html:70
+#: templates/detail_product.html:75
 msgid "wheelbase"
 msgstr "колесная база"
 
-#: templates/detail_product.html:75
+#: templates/detail_product.html:80
 msgid "fuel type"
 msgstr "тип топлива"
 
 #: templates/index.html:29
 msgid "Mahsulotlar"
-msgstr "Продукты"
+msgstr "Продукция"
 
 #: templates/index.html:49
 msgid "Dilerlik"
-msgstr "Дистрибуция"
+msgstr "Дилерство"
 
 #: templates/index.html:62
 msgid " Yangilik "
@@ -276,24 +315,31 @@ msgid ""
 "\n"
 "      News\n"
 "      "
-msgstr "Новости"
+msgstr "\n"
+"      Новости\n"
+"      "
 
 #: templates/products.html:13
 msgid ""
 "\n"
 "      Products\n"
 "      "
-msgstr "Продукты"
+msgstr "\n"
+"      Продукция\n"
+"      "
 
 #: templates/products.html:40
 msgid ""
 "\n"
 "                      Ba'tafsil\n"
 "                      "
-msgstr "Подробнее"
+msgstr "\n"
+"                      Подробнее\n"
+"                      "
 
 #: templates/services.html:12
 msgid ""
 "\n"
 "Bizning Xizmatlar\n"
-msgstr "Наши услуги"
+msgstr "\n"
+"Наши услуги\n"
